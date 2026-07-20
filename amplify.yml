@@ -1,0 +1,33 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash"
+        - "export NVM_DIR=\"$HOME/.nvm\""
+        - "test -s \"$NVM_DIR/nvm.sh\" && . \"$NVM_DIR/nvm.sh\""
+        - "nvm install 20"
+        - "nvm use 20"
+        - "node -v"
+        - "npm ci --cache .npm --prefer-offline"
+    build:
+      commands:
+        - rm -f .env.production
+        - touch .env.production
+        - env | grep -e '^FIREBASE_SERVICE_ACCOUNT_KEY=' >> .env.production || true
+        - env | grep -e '^NEXT_PUBLIC_' >> .env.production || true
+        - env | grep -e '^SITE_URL=' >> .env.production || true
+        - env | grep -e '^SITE_ID=' >> .env.production || true
+        - env | grep -e '^CONTACT_EMAIL=' >> .env.production || true
+        - "node scripts/validate-build-env.mjs"
+        - "node scripts/verify-firestore-content.mjs"
+        - "npm run build"
+        - "node scripts/write-ads-txt.mjs"
+  artifacts:
+    baseDirectory: "out"
+    files:
+      - "**/*"
+  cache:
+    paths:
+      - ".next/cache/**/*"
+      - ".npm/**/*"

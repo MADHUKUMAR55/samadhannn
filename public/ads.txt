@@ -1,0 +1,1 @@
+# Configure NEXT_PUBLIC_ADSENSE_PUB_ID in Amplify to generate this file.
