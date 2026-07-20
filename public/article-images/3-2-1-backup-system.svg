@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">A practical 3-2-1 backup system</title>
+  <desc id="desc">Three protected file copies connected across a computer, external drive, and cloud</desc>
+  <rect width="1200" height="630" fill="#f7f3ea"/>
+  <circle cx="1060" cy="70" r="260" fill="#dcece5"/>
+  <circle cx="1050" cy="570" r="165" fill="none" stroke="#e99a2e" stroke-width="3" opacity=".55"/>
+  <rect x="70" y="64" width="74" height="74" rx="24" fill="#0f5c49"/>
+  <path d="M122 87c-3.4-2.7-8-4-12.5-3.5-6.6.8-11 4.6-11 9.7 0 5.7 5 7.7 11.4 8.7 6.8 1 10.2 2.8 10.2 7.3 0 4.8-4.6 8.4-10.8 8.8-5 .4-9.9-1.2-13.5-4.5" fill="none" stroke="#fffaf0" stroke-linecap="round" stroke-width="5.7"/>
+  <circle cx="126" cy="82.5" r="5.6" fill="#e99a2e"/>
+  <text x="165" y="91" fill="#17312a" font-family="Georgia, serif" font-size="34" font-weight="700">Samadhannn</text>
+  <text x="72" y="238" fill="#0f5c49" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="4">PRACTICAL DIGITAL SAFETY</text>
+  <text x="70" y="316" fill="#17312a" font-family="Georgia, serif" font-size="58" font-weight="700">Build a 3-2-1</text>
+  <text x="70" y="384" fill="#17312a" font-family="Georgia, serif" font-size="58" font-weight="700">backup system</text>
+  <text x="72" y="438" fill="#526861" font-family="Arial, sans-serif" font-size="25">Three copies. Two storage types. One off-site.</text>
+  <g transform="translate(745 180)">
+    <path d="M112 112h120M232 112l88 88M232 112l88-88" fill="none" stroke="#98b9aa" stroke-width="6" stroke-linecap="round"/>
+    <rect x="12" y="64" width="108" height="82" rx="13" fill="#0f5c49"/>
+    <rect x="29" y="80" width="74" height="49" rx="5" fill="#fffaf0" opacity=".9"/>
+    <rect x="32" y="153" width="68" height="9" rx="4" fill="#e99a2e"/>
+    <rect x="294" y="-12" width="105" height="78" rx="14" fill="#e99a2e"/>
+    <circle cx="346" cy="27" r="17" fill="none" stroke="#fffaf0" stroke-width="5"/>
+    <path d="M327 51h38" stroke="#fffaf0" stroke-width="5" stroke-linecap="round"/>
+    <path d="M300 237c-15-2-25-14-25-29 0-17 14-31 31-31 5-24 25-41 50-41 27 0 49 20 52 46 16 2 28 15 28 32 0 18-15 33-33 33h-98Z" fill="#0f5c49"/>
+    <path d="m340 219 17-17 17 17M357 202v34" fill="none" stroke="#fffaf0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="232" cy="112" r="28" fill="#fffaf0" stroke="#0f5c49" stroke-width="6"/>
+    <path d="m218 112 10 10 19-22" fill="none" stroke="#0f5c49" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <rect x="72" y="507" width="278" height="8" rx="4" fill="#0f5c49"/>
+  <rect x="365" y="507" width="104" height="8" rx="4" fill="#e99a2e"/>
+</svg>
